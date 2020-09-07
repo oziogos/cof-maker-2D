@@ -1,0 +1,104 @@
+test_dict={
+    
+    'phthalocyanine_test_v1':{
+        
+        'function':'COF_4fold',
+        'save':True,
+        'outdir':'phthalocyanine_test_v1_output',
+        
+        'cores':['Pc'],
+        
+        'linkers':{
+            'Ac2':{
+                'roll1':0,
+                'roll2':0,
+                'symmetry':'tetragonal_xy'},
+            'Ph2Ac2':{
+                'roll1':0,
+                'roll2':0,
+                'symmetry':'tetragonal_xy'},
+            'phenyl':{
+                'roll1':0,
+                'roll2':0,
+                'symmetry':'tetragonal_xy'},
+            'phenanthrene':{
+                'roll1':0,
+                'roll2':0,
+                'symmetry':'tetragonal_xy'},
+            'dibenzoanthracene':{
+                'roll1':0,
+                'roll2':0,
+                'symmetry':'tetragonal_xy'},
+            'pyrene':{
+                'roll1':0,
+                'roll2':0,
+                'symmetry':'tetragonal_xy'},
+            'picene':{
+                'roll1':0,
+                'roll2':0,
+                'symmetry':'tetragonal_xy'},
+            'biphenyl':{
+                'roll1':0,
+                'roll2':0,
+                'symmetry':'tetragonal_xy'},
+            'TBAA':{
+                'roll1':0,
+                'roll2':0,
+                'symmetry':'tetragonal_xy'},
+            'thienothiophene':{
+                'roll1':0,
+                'roll2':0,
+                'symmetry':'tetragonal_xy'},
+            'BDT':{
+                'roll1':0,
+                'roll2':0,
+                'symmetry':'tetragonal_xy'},
+            'ADT':{
+                'roll1':0,
+                'roll2':0,
+                'symmetry':'tetragonal_xy'},
+        },
+    },
+    
+    'porphyrin_test_v1':{
+        
+        'function':'COF_4fold',
+        'save':True,
+        'outdir':'porphyrin_test_v1_output',
+        
+        'cores':['porphyrin','TIP-2H'],
+        
+        'linkers':{
+            'Ac2':{
+                'roll1':0,
+                'roll2':0,
+                'symmetry':'tetragonal_xy'},
+            'Ph2Ac2':{
+                'roll1':45,
+                'roll2':45,
+                'symmetry':'tetragonal_xy'},
+            'phenyl':{
+                'roll1':45,
+                'roll2':45,
+                'symmetry':'tetragonal_xy'},
+            'pyrene':{
+                'roll1':45,
+                'roll2':45,
+                'symmetry':'tetragonal_xy'},
+            'TBAA':{
+                'roll1':0,
+                'roll2':0,
+                'symmetry':'tetragonal_xy'},
+            'benzene_BO2H':{
+                'roll1':0,
+                'roll2':0,
+                'symmetry':'tetragonal_xy'
+            },
+            'anthracene_BO2H':{
+                'roll1':0,
+                'roll2':0,
+                'symmetry':'tetragonal_xy'
+            },
+        },
+    }
+}
