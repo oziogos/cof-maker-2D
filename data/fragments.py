@@ -22,6 +22,12 @@ fragments={
         'src':'data/cores/phthalocyanine_BO2H.xyz',
         'sites':[53,61,58,56]
     },
+    
+    # pyrene
+    'pyrene_core':{
+        'src':'data/cores/pyrene.xyz',
+        'sites':[2,14,12,6]
+    },
 
     # --- LINKERS ---
     
